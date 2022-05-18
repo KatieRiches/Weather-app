@@ -18,7 +18,7 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[date.getDay()];
-  return `${day} ${hours} ${minutes}`;
+  return `${day} ${hours}:${minutes}`;
 }
 
 function displayTemperture(response) {
@@ -42,5 +42,3 @@ let apiKey = "4cf67821f8a1ed58161e24f9867203f3";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperture);
-
-console.log(apiUrl);
