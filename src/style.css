@@ -18,6 +18,7 @@ ul {
 li {
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
   list-style: none;
   color: brown;
   font-size: 16px;
