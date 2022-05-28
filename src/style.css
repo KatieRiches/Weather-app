@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: blueviolet;
+  color: #64c4ed;
   font-size: 24px;
   font-weight: 100;
   line-height: 28.8px;
@@ -19,7 +19,7 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: brown;
+  color: #9ba6a5;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -37,7 +37,7 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
 }
 .overview {
@@ -51,7 +51,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: blue;
+  color: #64c4ed;
   font-size: 64px;
   font-weight: 100;
   line-height: 1;
@@ -73,19 +73,19 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
+  color: whitesmoke;
+  opacity: 0.6;
 }
 
 .weather-forecast .day {
   font-size: 16px;
-  color: blueviolet;
   opacity: 0.6;
 }
 
 .forecast-temp {
   font-size: 13px;
-  color: #000;
 }
 
 .high {
